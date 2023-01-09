@@ -13,22 +13,16 @@ body{
     border: 2px dashed white;
 }
 
-footer{
-    height: 70px;
-    width: 100%;
-
-    /* debug */
-    border: 2px dashed red;
-}
 
 .left-container{
     width: calc(100% - 250px);
     height: 100%;
-
+    
     /* debug */
     border: 5px solid blue;
 }
 
+/* header */
 
 header{
     height: 50px;
@@ -39,6 +33,8 @@ header{
     /* debug */
     border: 2px dashed purple;
 }
+
+/* main */
 
 main{
     padding-top: 50px;
@@ -92,7 +88,7 @@ main{
     width: 250px;
     height: 100%;
     padding: 10px;
-
+    
     /* debug */
     border: 5px solid green;
 }
@@ -111,3 +107,22 @@ main{
 .icons>img{
     width: 30px;
 }
+
+/* footer */
+
+footer{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    /* debug */
+    border: 2px dashed red;
+}
+
+footer>*{
+    background-color: darkgray;
+    height: 100%;
+    width: 100px;
+}
+
