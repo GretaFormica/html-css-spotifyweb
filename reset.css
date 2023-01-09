@@ -26,3 +26,8 @@ a{
 	color: inherit;
 }
 
+ul>li{
+	text-decoration: none;
+	list-style: none;
+}
+
