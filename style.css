@@ -175,14 +175,36 @@ footer{
     height: var(--h-f-height);
     display: flex;
     justify-content: space-between;
-
-    /* debug */
-    border: 2px dashed red;
+    background-color: #282828;
+    padding: 20px;
 }
 
-footer>*{
-    background-color: darkgray;
+.miniatura>p{
+    display: inline;
+}
+
+.miniatura>img{
+    width: 50px;
+}
+
+.play{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.progress-bar{
+    width: 500px;
+    height: 4px;
+    border-radius: 1px;
+    background-color: #5a5a5a;
+}
+
+.progress{
+    display: block;
+    width: 30%;
     height: 100%;
-    width: 100px;
+    background-color: #c1c1c1;
+
 }
 
