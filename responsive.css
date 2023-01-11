@@ -44,3 +44,47 @@
     }
 
 }
+
+/* extra small */
+
+@media screen and (max-width: 552px){
+    .album{
+        width: calc(100% / 2 - 10px);
+        height: auto;
+        text-align: center;
+    }
+
+    .music{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .ul-flex{
+        transform: scale(0.4);
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .side{
+        width: 100px;
+    }
+
+    .left-container{
+        width: calc(100% - 100px);
+        height: 100%;
+    }
+
+    .playlist>*{
+        display: none;
+    }
+
+    .icons>p{
+        display: none;
+    }
+
+    .profile>p{
+        display: none;
+    }
+
+}
