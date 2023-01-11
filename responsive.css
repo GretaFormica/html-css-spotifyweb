@@ -11,4 +11,36 @@
         gap: 10px;
     }
 
+    .ul-flex{
+        flex-shrink: 1;
+        transform: scale(0.7);
+    }
+
+    footer{
+        width: 100%;
+    }
+
+}
+
+/* small */
+
+@media screen and (max-width: 639px){
+    .album{
+        width: calc(100% / 2 - 10px);
+        height: auto;
+        text-align: center;
+    }
+
+    .music{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .ul-flex{
+        transform: scale(0.5);
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
 }

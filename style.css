@@ -1,6 +1,6 @@
 :root{
     --h-f-height: 80px;
-    --sidebar-width: 280px;
+    --sidebar-width: 250px;
     --secondary-color: #797b80;
 }
 
@@ -80,6 +80,7 @@ main{
     align-items: center;
     gap: 10px;
     margin: 0 auto;
+    width: max-content;
 }
 
 .album>p{
@@ -205,6 +206,7 @@ footer{
     display: flex;
     gap: 20px;
     align-items: center;
+    width: calc(100% / 4);
 }
 
 
@@ -216,6 +218,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: calc(100% / 4 * 2);
     
 }
 
@@ -224,6 +227,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 100%;
+
 }
 
 .i{
@@ -240,11 +245,7 @@ footer{
 }
 
 .progress.bar{
-    width: 500px;
-}
-
-.volume.bar{
-    width: 100px;
+    width: 80%;
 }
 
 .small-progress{
@@ -255,3 +256,10 @@ footer{
 
 }
 
+.volume{
+    width: calc(100% / 4);
+}
+
+.volume.bar{
+    width: 100px;
+}
