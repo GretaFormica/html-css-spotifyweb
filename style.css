@@ -35,6 +35,9 @@ header{
     height: var(--h-f-height);
     width: calc(100% - var(--sidebar-width));
     position: fixed;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     
     background-color: rgba(0, 0, 0, 0.327);
 
@@ -46,11 +49,13 @@ button{
     background-color: transparent;
     border-radius: 50px;
     padding: 10px 30px;
+    height: fit-content;
+    margin-right: 100px;
     
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     right: 0%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 /**************
