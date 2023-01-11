@@ -1,0 +1,8 @@
+
+.album:hover .none{
+    display: block;
+}
+
+.gray:hover {
+    color: white;
+}
