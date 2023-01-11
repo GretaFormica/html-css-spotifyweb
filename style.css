@@ -11,6 +11,7 @@ body{
 }
 
 
+
 .top-container{
     height: calc(100vh - var(--h-f-height));
     display: flex;
@@ -30,7 +31,7 @@ header{
     height: var(--h-f-height);
     width: calc(100% - var(--sidebar-width));
     position: fixed;
-
+    
     background-color: rgba(0, 0, 0, 0.327);
 
 }
@@ -41,7 +42,7 @@ button{
     background-color: transparent;
     border-radius: 50px;
     padding: 10px 30px;
-
+    
     position: absolute;
     top: 50%;
     right: 0%;
@@ -67,6 +68,7 @@ main{
 .ul-flex{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     margin: 0 auto;
     color: var(--secondary-color);
@@ -179,28 +181,53 @@ footer{
     padding: 20px;
 }
 
-.miniatura>p{
-    display: inline;
+.miniatura{
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
+
 
 .miniatura>img{
     width: 50px;
 }
 
 .play{
-    align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    
 }
 
-.progress-bar{
-    width: 500px;
+.playmusic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.i{
+    color: white;
+    gap: 30px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.bar{
     height: 4px;
     border-radius: 1px;
     background-color: #5a5a5a;
 }
 
-.progress{
+.progress.bar{
+    width: 500px;
+}
+
+.volume.bar{
+    width: 100px;
+}
+
+.small-progress{
     display: block;
     width: 30%;
     height: 100%;
